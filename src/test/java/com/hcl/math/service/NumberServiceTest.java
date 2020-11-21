@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class NumberServiceTest {
 	
 	private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
-	
+
 	@Autowired
 	NumberService numberService;
 	
